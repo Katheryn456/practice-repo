@@ -14,10 +14,15 @@ Ask Robert/Lazaro re: git commit with changes to new branch. Currently, git stat
 
 Maybe have Evan be the person to create the repo, where everyone else will be a Collaborator. Robert mentioned: we'll fork it later, so that the person's name is not the only one on it.
 
+create project in GitHub
+
+create GitHub issue "set up file structure"
+
 git status
 git add .
 git commit -m  // COMMIT BEFORE YOU PULL. Else, it'll erase
 git pull origin main // git pull (if not on Main, then you'll need to do git pull origin main) to make sure no new changes that might conflict with the branch, before pushing.
 git push origin setUp // Push to the repo. git push origin [local branch name]
 
-test
+complete git pull in GitHub pull request tab. Assign reviewer and project.
+
