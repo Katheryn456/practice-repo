@@ -26,3 +26,20 @@ git push origin setUp // Push to the repo. git push origin [local branch name]
 
 complete git pull in GitHub pull request tab. Assign reviewer and project.
 
+To download teammate's branch for review:
+git fetch
+git checkout -b [branch name of teammate] origin/[branch name of teammate]
+
+how to update if another branch merge before yours
+git commit // commit current changes before pulling
+git pull origin main
+resolve conflict
+git add .
+git commit
+
+git pull origin main // just in case
+git push origin [branchName]
+
+GitHub cheat sheet from Mouhamed: https://training.github.com/downloads/github-git-cheat-sheet/
+
+From Robert: https://github.com/reanderson89/practice-repo 
